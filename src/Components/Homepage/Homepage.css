@@ -1,7 +1,15 @@
 .home_container{
-    justify-content: center;
-    
-    height:500px;
+    display: flex;
+    justify-content: center; 
+    height:550px;
     background-image:url('./../Asset/jhg.jpg');
     background-size: cover;
+}
+.right_container{
+    background-color: yellow;
+    width: 50%;
+}
+.left_container{
+background-color: blue;
+width: 50%;
 }
