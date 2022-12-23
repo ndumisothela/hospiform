@@ -1,0 +1,7 @@
+.footer_container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;  
+    background-color:#FFC6D3 ;
+    margin-top: 35px;
+}

@@ -1,9 +1,19 @@
 import './App.css';
+import Navbar from './Components/Navbar/Navbar';
+import Footer from './Components/Footer/Footer'
+import Homepage from './Components/Homepage/Homepage';
 
 function App() {
   return (
     <div className="App">
-      <h1>HOSPIFORM TEST </h1>
+      <Navbar/>
+      <main>
+        <switch>
+<Homepage/>
+        </switch>
+      </main>
+      <Footer/>
+      
     </div>
   );
 }

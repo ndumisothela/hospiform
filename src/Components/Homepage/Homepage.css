@@ -1,0 +1,7 @@
+.home_container{
+    justify-content: center;
+    
+    height:500px;
+    background-image:url('./../Asset/jhg.jpg');
+    background-size: cover;
+}
