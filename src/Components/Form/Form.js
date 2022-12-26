@@ -4,8 +4,8 @@ import "./Form.css";
 function Form() {
   return (
     <div className="form_container">
-      <div className="right_container">
-        <h1> RIGHT SIDE</h1>
+      <div className="left_container">
+        <h1> LEFT SIDE</h1>
         <p>
           Request a medical appointment Please provide your details below and we
           will find the appropriate appointment for you. HospiForm appointmed™
@@ -13,8 +13,8 @@ function Form() {
           17:00.
         </p>
       </div>
-      <div className="left_container">
-        <h1>LEFT SIDE</h1>
+      <div className="right_container">
+        <h1>RIGHT SIDE</h1>
 
         <form>
           <label for="full_name">Full Name</label>
@@ -24,6 +24,24 @@ function Form() {
             placeholder="First and Last"
             required=""
           />
+
+          <label for="age">Age</label>
+          <input type="text" className="age" placeholder="age" required="" />
+          <label for="date_of_birth">Date of birth</label>
+          <input
+            type="text"
+            className="date_of_birth"
+            placeholder="Date of birth"
+            required=""
+          />
+          <label for="gender">Gender</label>
+          <input
+            type="text"
+            className="gender"
+            placeholder="Gender"
+            required=""
+          />
+
           <label for="email_address">Email Address</label>
           <input
             type="email"
@@ -46,14 +64,17 @@ function Form() {
               <option value="7">Dietetics</option>
               <option value="8">Family practice</option>
               <option value="9">General practice</option>
-              <label for="message">Additional Comments</label>
-              <textarea
-                rows="3"
-                className="message"
-                placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor."
-                required=""
-              ></textarea>
             </select>
+            <br />
+
+            <textarea
+              rows="3"
+              className="message"
+              placeholder=" Not sure what type of healthcare provider you need ?
+              Provde a short description of your symptoms and we will help find the right doctor for you."
+              required=""
+            ></textarea>
+            <br />
             <label for="timely">LOCATION </label>
             <select className="timely" required="">
               <option value="" selected="" disabled="">
@@ -70,6 +91,7 @@ function Form() {
               <option value="9">Western Cape</option>
             </select>
           </fieldset>
+          <input type="submit" value="Submit Form" />
         </form>
       </div>
     </div>

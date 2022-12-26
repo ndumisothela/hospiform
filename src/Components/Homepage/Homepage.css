@@ -1,17 +1,7 @@
-.home_container{
-    display: flex;
-    justify-content: center; 
-    height:550px;
-    background-image:url('./../Asset/jhg.jpg');
-    background-size: cover;
-}
-.patient_btn{
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: 50px;
-    margin-top: 250px;
-    background-color:#FB2576 ;
-    border: none;
-    border-radius: 5px;
+.home_container {
+  display: flex;
+  justify-content: center;
+  height: 550px;
+  background-image: url("./../Asset/jhg.jpg");
+  background-size: cover;
 }
