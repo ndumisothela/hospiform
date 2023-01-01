@@ -1,13 +1,13 @@
 import React from "react";
 import "./Navbar.css";
-import csb from "./../Asset/csb.png";
+import bgh from "./../Asset/bgh.webp";
 
 function Navbar() {
   return (
     <div className="navsection">
       <div className="navbar">
         <div className="logo">
-          <img src={csb} alt="logo" />
+          <img src={bgh} alt="logo" />
         </div>
         <div className="searchbar">
           <div className="search">
@@ -21,8 +21,8 @@ function Navbar() {
         <button type="submit" className="login_btn">
           Login
         </button>
-        <button type="submit" className="patient_btn">
-          Request an appointment{" "}
+        <button type="submit" className="signup_btn">
+          Sign up
         </button>
       </div>
     </div>

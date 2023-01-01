@@ -1,7 +1,25 @@
 .home_container {
   display: flex;
   justify-content: center;
-  height: 550px;
+  height: 500px;
+}
+
+.home_msg {
   background-image: url("./../Asset/jhg.jpg");
   background-size: cover;
+  width: 60%;
+}
+.home_msg > h1 {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+.left-container {
+  width: 40%;
+  background-color: #1c315e;
+  color: aliceblue;
+  padding: 61px 10px 20px 10px;
+}
+.home_msg > h3 {
+  font-size: smalls;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }

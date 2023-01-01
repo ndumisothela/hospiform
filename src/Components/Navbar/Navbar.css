@@ -1,13 +1,13 @@
 .navsection {
   background-color: white;
-  height: 80px;
+  height: 110px;
   margin-top: 20px;
 }
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 56px;
+  height: 70px;
   padding: 0 16px;
   z-index: 100;
   align-items: center;
@@ -19,7 +19,8 @@
   justify-content: center;
 }
 .logo img {
-  width: 130px;
+  width: 150px;
+  height: 150px;
   margin-left: 10px;
 }
 .search {
@@ -46,18 +47,18 @@
   border: none;
   font-size: large;
   font-weight: 500;
-  color: #cccccc;
-  background-color: #fb2576;
+  color: #144272;
+  background-color: #ade792;
 }
-.patient_btn {
+.signup_btn {
   justify-content: center;
   align-items: center;
-  width: 200px;
+  width: 150px;
   height: 50px;
   font-size: medium;
   font-weight: 400;
-  color: #cccccc;
-  background-color: #fb2576;
+  color: #144272;
+  background-color: #ade792;
   border: none;
   border-radius: 5px;
 }

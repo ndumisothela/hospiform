@@ -1,0 +1,32 @@
+.dash_container {
+  display: flex;
+  margin: 0;
+}
+.left_side {
+  width: 60%;
+  background-image: url(./../Asset/m-a-d.jpg);
+  background-size: cover;
+  height: 600px;
+}
+.right_side {
+  width: 40%;
+  padding: 61px 0 20px 70px;
+
+  padding-right: 5%;
+  font: inherit;
+  font-size: 100%;
+  color: #f5f5dc;
+  background-color: #144272;
+}
+.form_btn {
+  font-size: 16px;
+  font-weight: 600;
+  color: #f5f5dc;
+  background-color: #fb2576;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
+  font-family: "Open Sans";
+  text-decoration: none;
+  width: 150px;
+  height: 40px;
+}
